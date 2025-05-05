@@ -1,0 +1,14 @@
+{
+  "name": "getOrderDetails",
+  "description": "Fetches order details from DynamoDB using the order ID.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "orderId": {
+        "type": "string",
+        "description": "The unique identifier for the order."
+      }
+    },
+    "required": ["orderId"]
+  }
+}

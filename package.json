@@ -1,0 +1,19 @@
+{
+  "name": "poc-nova-sonic-demo",
+  "version": "1.0.0",
+  "description": "PoC: Twilio + Amazon Nova Sonic STS + AWS Lambda",
+  "main": "server.js",
+  "scripts": {
+    "start:server": "node server.js",
+    "start:bridge": "node sonicBridge.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "ws": "^8.13.0",
+    "twilio": "^4.12.0",
+    "node-fetch": "^2.6.7",
+    "dotenv": "^16.0.3",
+    "@aws-sdk/client-bedrock-runtime": "^0.1.0"
+  }
+}
