@@ -1,4 +1,4 @@
-# PoC: Twilio + Amazon Nova Sonic STS + AWS Lambda
+# Twilio + Amazon Nova Sonic STS + AWS Lambda
 
 ## Overview
 This PoC demonstrates a real-time Speech-to-Speech (STS) integration using Twilio Media Streams, Amazon Nova Sonic (via Amazon Bedrock streaming API), and an AWS Lambda tool for DynamoDB lookups.
@@ -36,7 +36,7 @@ This PoC demonstrates a real-time Speech-to-Speech (STS) integration using Twili
    `https://$HOST:$PORT/voice`
 
 4. **Test with a call**:
-   - Call   Twilio number and speak: “My order number is 90000
+   - Call Twilio number and speak: “My order number is 90000
    - Hear back the order status fetched from DynamoDB.
 
 ## Project Structure
